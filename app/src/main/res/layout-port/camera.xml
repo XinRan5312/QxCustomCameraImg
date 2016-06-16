@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+    <!-- 显示预览图形 -->
+    <RelativeLayout
+        android:id="@+id/camera_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <com.xinran.qxcustomcamera.cameratwo.view.CameraContainer
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            android:id="@+id/camera_bottom_bar"
+            layout="@layout/camera_bottom_bar" />
+
+        <include
+            android:id="@+id/camera_header_bar"
+            layout="@layout/camera_header_bar" />
+    </RelativeLayout>
+  <ImageView
+      android:id="@+id/camera_mask"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:src="@drawable/focus_focused"
+      android:background="@color/main_menu_bg"/>
+
+</RelativeLayout>

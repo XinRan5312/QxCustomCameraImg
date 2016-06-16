@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/xinran/mygithub/QxCustomCamera/app/build/intermediates/exploded-aar/QxCustomCamera/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d7ff94d7bb10cde467d822332821db4a7506af19">
+        <dex dex="/Users/xinran/mygithub/QxCustomCamera/app/build/intermediates/pre-dexed/debug/classes-72ebc1a762d2a8015ee73b563b065e50a6b4c5c8.jar" />
+    </item>
+    <item
+        jar="/Users/xinran/mygithub/QxCustomCamera/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/xinran/mygithub/QxCustomCamera/app/build/intermediates/pre-dexed/debug/classes-88b225b82ebb435a4ed86acfa061a2b37c5759b0.jar" />
+    </item>
+    <item
+        jar="/Users/xinran/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/xinran/mygithub/QxCustomCamera/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-8987a4518d0f0227423b99370e9cefaa6fc59708.jar" />
+    </item>
+
+</items>
